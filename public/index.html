@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rj's portfolio</title>
+    
+    <link rel="stylesheet" href="css/mystyle.css">
+
+  
+
+</head>
+<body>
+
+    <main>
+        <nav id="navbar">
+            <ul id="list">
+                <li id="name" >Raj Prajapati</li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Galary</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+
+        </nav>
+        <div id="image" >
+              <img id="myimg" src="https://source.unsplash.com/720x600/?water" style="object-fit: cover; width: 100%; height: 800px;" alt="">
+        </div>
+        
+    </main>
+    
+<script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 22 || document.documentElement.scrollTop > 22) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-85px";
+      }
+    }
+    </script>
+
+    
+</body>
+</html>
