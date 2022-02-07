@@ -31,6 +31,6 @@ server.get("*",(req,res)=>{
     res.send("this is 404 error page")
 })
 
-server.listen(8000,()=>{
+server.listen(port,()=>{
     console.log("server listening at 8000")
 })
